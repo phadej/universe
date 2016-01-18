@@ -25,7 +25,7 @@ install:
   $HOME/.stack-work-cache/installplan.txt; fi;
 script:
 - stack --no-terminal --skip-ghc-check build --test
-- stack --no-terminal --skip-ghc-check sdist
+- stack --no-terminal --skip-ghc-check sdist --ignore-check
 matrix:
   fast_finish: true
   include:
