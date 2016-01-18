@@ -7,4 +7,4 @@ packages:
 - instances/trans/
 - top/
 extra-deps: []
-resolver: lts-2.22
+resolver: lts-3.3
